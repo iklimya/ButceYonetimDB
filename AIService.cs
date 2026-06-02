@@ -9,7 +9,8 @@ namespace _2.sınıf_2._dönem_projesi
 {
     internal class AIService
     {
-        private string apiKey = "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";
+       // private string apiKey = "GROQ_API_KEY_BURAYA";
+        private string apiKey = "";
 
         public async Task<string> AnalizYap(string veri)
         {
