@@ -16,7 +16,7 @@ namespace _2.sınıf_2._dönem_projesi
             Timeout = TimeSpan.FromSeconds(30)
         };
 
-      //  private const string API_KEY = "GROQ_API_KEY_BURAYA";
+      
         private const string API_KEY = "";
         public static async Task<string> HarcamaYorumuAl(decimal toplamGelir, decimal toplamHarcama)
         {
